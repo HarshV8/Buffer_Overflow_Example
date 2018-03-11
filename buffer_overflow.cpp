@@ -1,6 +1,6 @@
 /*
-
-This Code Demonstrates The Buffer Overlow Vulnerability in this Authentication app.
+Author : xtreme.research@gmail.com 
+This Code Demonstrates The Buffer Overlow Vulnerability in this Authentication application Example.
 To log in and get the "Welcome" Message, the user must type the right password 
 
 "somestupidpassword!" - password
@@ -21,6 +21,9 @@ so to exploit pass - "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
 #Sidenote: The number of Y characters we have to use will very dependiing on the memory allocation
 so try to pass something like 40 - 60 characters and if you get Segmentation Fault, then reduce
 the Number!
+
+Feel Free to Toggle the Debug Variable to true / false to see the variable pointer locations and
+values to help you understand whats going on, in the Memory!
 
 */
 
