@@ -25,6 +25,16 @@ the Number!
 Feel Free to Toggle the Debug Variable to true / false to see the variable pointer locations and
 values to help you understand whats going on, in the Memory!
 
++-------------------+--------------------+---+-+
+| Array A           | Array B            |xx |c|
++-------------------+--------------------+---+-+
+
+a[0]---------->a[19]
+
+the c is the check variable in the stack which will be overflown if we supply
+too much characters in the string as the stack writes from left to right 
+the xx represent the extra data that may or may not be present sometimes!
+
 */
 
 #include<stdio.h>
