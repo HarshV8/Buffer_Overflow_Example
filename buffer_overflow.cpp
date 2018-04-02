@@ -26,10 +26,10 @@ Feel Free to Toggle the Debug Variable to true / false to see the variable point
 values to help you understand whats going on, in the Memory!
 
 +-------------------+--------------------+---+-+
-| Array A           | Array B            |xx |c|
+| Array b           | Array a            |xx |c|
 +-------------------+--------------------+---+-+
 
-a[0]---------->a[19]
+b[0]---------->b[19]
 
 the c is the check variable in the stack which will be overflown if we supply
 too much characters in the string as the stack writes from left to right 
