@@ -8,9 +8,6 @@ In Real Life Scenario, this kind of attack is carried out much more differently.
 In real life , the buffer will contain a Payload With a shellcode and when that is executed, we might get root access to the machine.
 it can be used for many types of exploits including privilege escalation!
 
-
-
-
 This Code Demonstrates The Buffer Overlow Vulnerability in this Authentication app.
 To log in and get the "Welcome" Message, the user must type the right password 
 
@@ -23,3 +20,6 @@ The Exploit is in STRCPY Function. It does not map the size of the character arr
 lets us overwrite the memory in parts that we were not supposed to write to.
 Normally that would cause a Segmentation Fault, But if the Variables are arranged in a specific
 order in the Stack,then it causes STRCPY to overwrite them!
+
+## Stack Cookie
+Simple code which adds a 8 bit character as "Stack Cookie" and poses a challenge for user to crack.
